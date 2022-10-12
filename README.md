@@ -7,7 +7,7 @@ Prerequisites:
 
 -Install Python
 
--Run "pip install youtube-dl" in cmd
+-Run "pip install youtube-dl" in cmd (the pip command can be found in your Python installation folder under the Scripts directory)
 
 -Add the ffmpeg folder found in this repo to your PATH environment variable.
 
