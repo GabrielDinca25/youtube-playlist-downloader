@@ -1,9 +1,9 @@
-import youtube_dl
+import yt_dlp
 import queue
 import threading
 
 # Constants
-PLAYLIST_URL = "" # insert playlist URL here
+PLAYLIST_URL = "https://youtube.com/playlist?list=PLNdHpW28eYAVA2aSueb8EI6y-iFzUTsKW" # insert playlist URL here
 threads_to_start = 10
 
 video_queue = queue.Queue()
@@ -20,7 +20,7 @@ ydl_opts = {
     }],
 }
 
-ydl = youtube_dl.YoutubeDL(ydl_opts)
+ydl = yt_dlp.YoutubeDL(ydl_opts)
 
 # Extracts the URL of each individual video from the playlist info.
 def extract_video_urls(url):
