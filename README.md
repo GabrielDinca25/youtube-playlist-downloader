@@ -5,11 +5,13 @@ Currently, the playlist provded must not contain any age-restricted or deleted v
 
 Prerequisites:
 
--Install Python
+- Install Python
 
--Run "pip install youtube-dl" in cmd (the pip command can be found in your Python installation folder under the Scripts directory)
+- Run 'pip install yt-dlp' in cmd (the pip command can be found in your Python installation folder under the Scripts directory, if it's missing 'run python -m ensurepip --default-pip')
 
--Add the ffmpeg folder found in this repo to your PATH environment variable.
+- Run 'pip install phantomjs'
+
+- Add the ffmpeg folder found in this repo to your PATH environment variable.
 
 Use: 
 
