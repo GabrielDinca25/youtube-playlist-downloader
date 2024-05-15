@@ -7,7 +7,7 @@ Prerequisites:
 
 - Install Python
 
-- Run 'pip install yt-dlp' in cmd (the pip command can be found in your Python installation folder under the Scripts directory, if it's missing 'run python -m ensurepip --default-pip')
+- Run 'pip install yt-dlp' in cmd (the pip command can be found in your Python installation folder under the Scripts directory, if it's missing run 'python -m ensurepip --default-pip')
 
 - Run 'pip install phantomjs'
 
